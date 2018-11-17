@@ -6391,7 +6391,7 @@ table {
   margin-top: -50px;
   background: url(/images/landing.jpeg?37211a27e14426c49a2e15ebf05fa522) no-repeat top;
   min-height: 400px;
-  padding: 150px;
+  padding-top: 150px;
   width: 100%;
   background-size: cover;
   color: #fff;
@@ -6412,6 +6412,39 @@ table {
 .btn-primary.custom {
   border-radius: 0;
   margin-top: -4px;
+}
+
+.col-md-4.custom {
+  -webkit-box-flex: 0 !important;
+      -ms-flex: 0 0 22.22222222% !important;
+          flex: 0 0 22.22222222% !important;
+}
+
+.listing {
+  margin-top: 80px;
+}
+
+.featured {
+  padding-bottom: 60px;
+}
+
+h2 {
+  padding-bottom: 20px;
+}
+
+.hr {
+  border-top: 2px solid #00bfff;
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.checked {
+  color: yellow;
+}
+
+.review-small {
+  font-size: 12px;
 }
 
 @media (min-width: 576px) {
